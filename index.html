@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <meta charset="utf-8">
+    
+    <title>VR REALITY ENVIRONMENT</title>
+    
+    <meta name="description" content="360&deg; Image - A-Frame">
+    
+    <script src= "http://aframe.io/releases/0.7.0/aframe.min.js"> </script>
+    
+    <script src="script.js"></script>
+    
+  </head>
+  
+  <body>
+    
+    <a-scene>
+      <a-assets> 
+      <img src ="https://cdn.glitch.com/7c5f9f66-44aa-4c57-9dd9-43a037d8f7ce%2F46953358474_83522467c8_o.jpg?v=1563044362842" rotation="0 -130 0" id="360photo">
+      </a-assets>
+       
+      <a-entity camera look-controls position="0 1.6 0">
+      
+      <a-cursor color="yellow"></a-cursor>
+      
+        </a-entity>
+      <a-text font="kelsonsans" value="VR Experience" width="6" position="-2.5 0.25 -1.5"
+              rotation="0 15 0"></a-text>
+    </a-scene>
+    
+  </body>
+  
+</html>
